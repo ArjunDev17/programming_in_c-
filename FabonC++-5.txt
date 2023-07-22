@@ -1,0 +1,107 @@
+//1st program in c
+#include<stdio.h>
+#include<conio.h>
+int  main(){
+    int size;
+    int i;
+    printf("Enter number upto you want Fabonacci series \n");
+    scanf("%d",&size);
+    int a=0;
+    int b=1;
+    printf("Your fabonacci Series is....\n");
+    printf("%d %d",a,b);
+    for ( i = 0; i < size; i++)
+        {
+        int c=a+b;
+        printf(" %d",c);
+        a=b;
+        b=c;
+    }
+    return 0;
+}
+Output:-->
+Enter number upto you want Fabonacci series 
+9
+Your fabonacci Series is....
+0 1 1 2 3 5 8 13 21 34 55
+
+//2nd program in c++
+#include<iostream>
+using namespace std;
+int main(){
+    int size;
+    cout<<"Enter number upto you want Fabonacci series "<<endl;
+    cin>>size;
+int a=0;
+int b=1;
+cout<<"Your fabonacci Series is...."<<endl;
+cout<<a<<" "<<b;
+for (int i = 0; i < size; i++)
+{
+    int c=a+b;
+    cout<<" "<<c;
+    a=b;
+    b=c;
+}
+
+}
+Output:-->
+Enter number upto you want Fabonacci series 
+8
+Your fabonacci Series is....
+0 1 1 2 3 5 8 13 21 34  
+
+
+//2nd program in c++
+
+import java.util.*;
+public class fabboniSeries {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner so=new Scanner(System.in);
+		int size;
+	    System.out.println("Enter number upto you want Fabonacci series ");
+	    size=so.nextInt();
+	int a=0;
+	int b=1;
+	System.out.println("Your fabonacci Series is....");
+	System.out.print(" "+a+" "+b);
+	for (int i = 0; i < size; i++)
+	{
+	    int c=a+b;
+	    System.out.print(" "+c);
+	    
+	    a=b;
+	    b=c;
+	}
+
+	}
+}
+Enter number upto you want Fabonacci series 
+8
+Your fabonacci Series is....
+ 0 1 1 2 3 5 8 13 21 34
+
+ # -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 21 09:49:30 2021
+
+@author: StoicsLP-00176
+"""
+
+num = int(input("Enter number upto you want Fabonacci series "))
+
+a=0
+b=1
+print("Your fabonacci Series is")
+print(a , b,end=" ")
+for i in range(0, num):
+    c=a+b;
+    print(c, end=" ")
+    a=b
+    b=c
+
+
+Enter number upto you want Fabonacci series 8
+Your fabonacci Series is
+0 1 1 2 3 5 8 13 21 34

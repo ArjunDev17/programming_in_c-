@@ -1,0 +1,556 @@
+Features of C++
+ 
+Introduction
+C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has imperative, object-oriented, and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac, etc. It can be used to develop operating systems, browsers, games, and so on. This makes C++ powerful as well as flexible.
+
+For this course, you will be provided with the in-built compiler of Coding Ninjas. However, if you want to run programs and practice them on your local desktop, various compilers like Code blocks, VS Code, Dev C++, Atom, and many more exist. You may choose one for yourself.
+
+ 
+Features of C++
+ 
+
+C++ provides a lot of features that are given below.
+
+Simple
+Portability
+Powerful and Fast
+Rich Library
+Platform Dependent
+Mid-level programming language
+Structured programming language
+Object-Oriented
+Case Sensitive
+Compiler Based
+Syntax based language
+Pointers
+Dynamic Memory Management
+ 
+
+1) Simple: C++ is a simple language because it provides a structured approach (to break the problem into parts), a rich set of library functions, data types, etc. It allows us to follow both procedural as well as functional approach to design our flow of control.
+
+ 
+
+2) Portability: It is the concept of carrying the instruction from one system to another system. In C++, Language .cpp file contains source code, and we can also edit this code. .exe file contains the application, which is the only file that can be executed. When we write and compile any C++ program on the Windows operating system, it efficiently runs on other window-based systems.
+
+ 
+
+3) Powerful: C++ is a very powerful programming language, and it has a wide variety of data types, functions, control statements, decision-making statements, etc. C++ is a fast language as compilation and execution time is less. Also, it has a wide variety of data types, functions & operators.
+
+ 
+
+4) Rich Library: C++ library is full of in-built functions that save a tremendous amount of time in the software development process. As it contains almost all kinds of functionality, a programmer can need in the development process. Hence, saving time and increasing development speed.
+
+ 
+
+5) Platform Dependent: Platform dependent language means the language in which programs can be executed only on that operating system where it is developed & compiled. It cannot run or execute on any other operating system. E.g., compiled programs on Linux won’t run on Windows.
+
+ 
+
+6) Mid-level programming language: C++ can do both low-level & high-level programming. That is the reason why C++ is known as a mid-level programming language.
+
+ 
+
+7) Structured programming language: C++ is a structured programming language as it allows to break the program into parts using functions. So, it is easy to understand and modify.
+
+ 
+
+8) Object-oriented: C++ is an object-oriented programming language. OOPs make development and maintenance easier, whereas, in Procedure-oriented programming language, it is not easy to manage if code grows as project size grows. It follows the concept of oops like polymorphism, inheritance, encapsulation, abstraction.
+
+ 
+
+9) Case sensitive: C++ is a case-sensitive programming language. In C++ programming, 'break and BREAK' both are different.
+
+ 
+
+10) Compiler Based: C++ is a compiler-based language, unlike Python. C++ programs used to be compiled, and their executable file is used to run it due to which C++ is a relatively faster language than Java and Python.
+
+ 
+
+11) Syntax-based language: C++ is a strongly typed syntax-based programming language. If any language follows the rules and regulations strictly, it is known as a strongly syntax-based language.Other examples of syntax-based languages are C, C++, Java, .net etc.
+
+ 
+
+12) Pointer: C++ supports pointers that allow the user to deal directly with the memory and control the programmer. This makes it very suitable for low-level tasks and very complicated projects. It is known to increase the speed of execution by decreasing the memory access overhead.
+
+ 
+
+13) Dynamic Memory Management: It supports the feature of dynamic memory allocation. In C++ language, we can free the allocated memory by calling the free() function. These features are missing in languages like C
+Uses of C++
+Uses of C++
+ 
+
+There are several benefits of using C++ because of its features and security; below are some uses of C++ Programming Language:
+
+ 
+
+Operating Systems: One of the key requirements of an Operating System is that it should be very fast as it is responsible for scheduling and running the user programs. The strongly typed and fast nature of C++ makes it an ideal candidate for writing operating systems. Also, C++ has a vast collection of system-level functions that also help in writing low-level programs. Microsoft Windows or Mac OS X, or Linux - all operating systems have some parts programmed in C++.
+
+ 
+
+Games: Again since most of the games need to be faster to support smooth game play, C++ is extensively used in game design.  C++ can easily manipulate hardware resources, and it can also provide procedural programming for CPU-intensive functions.
+
+ 
+
+Browsers: With the fast performance of C++, most browsers have their rendering software written in C++. Browsers are mostly used in C++ for rendering purposes. Rendering engines need to be faster in execution as most people do not like to wait for the web page to be loaded. 
+
+ 
+
+Libraries: Many high-level libraries use C++ as the core programming language. For example, TensorFlow uses C++ as the back end programming language. Such libraries required high-performance computations because they involve multiplications of huge matrices to train Machine Learning models. As a result, performance becomes critical. C++ comes to the rescue in such libraries.
+
+ 
+
+Graphics: C++ is widely used in almost all graphics applications that require fast rendering, image processing, real-time physics, and mobile sensors.
+
+ 
+
+Cloud/Distributed Systems: Cloud storage systems use scalable file-systems that work close to the hardware; also, the multi threading libraries in C++ provide high concurrency and load tolerance. 
+
+ 
+
+Embedded Systems: C++ is closer to the hardware level, and so it is quite useful in embedded systems as the software and hardware in these are closely coupled. Many embedded systems use C++, such as smartwatches, MP3 players, GPS systems, etc.
+
+ 
+
+Compilers: Compilers of various programming languages use C++ as the back-end programming language.
+Headers in C++
+Headers
+ 
+
+C++ code begins with the inclusion of header files. There are many header files available in the C++ programming language, which will be discussed while moving ahead with the course.
+
+ 
+
+So, what are these header files?
+
+ 
+
+The names of program elements such as variables, functions, classes, and so on must be declared before they can be used. For example, you can’t just write x = 42 without first declaring variable x as:
+
+ 
+
+int x = 42;
+ 
+
+The declaration tells the compiler whether the element is an int, a double, a float, a function, or a class. Similarly, header files allow us to put declarations in one location and then import them wherever we need them. This saves a lot of typing in multi-file programs. To declare a header file, we use #include directive in every .cpp file. This #include is used to ensure that they are not inserted multiple times into a single .cpp file.
+
+ 
+
+Now, moving forward to the code:
+
+ 
+
+#include <iostream>
+using namespace std;
+ 
+
+iostream stands for Input/Output stream, meaning this header file is necessary to take input through the user or print output to the screen. This header file contains the definitions for the functions:
+
+cin: used to take input
+cout: used to print output
+ 
+
+namespace defines which input/output form is to be used. You will understand these better as you progress in the course.
+
+ 
+
+Note: semicolon (;) is used for terminating a C++ statement. i.e., different statements in a C++ program are separated by a semicolon.
+
+main() function
+main() function
+ 
+
+Look at the following piece of code:
+
+int main() {
+      Statement 1;
+      Statement 2;
+      ...
+}
+ 
+
+You can see the highlighted portion above. Let’s discuss each part stepwise.
+
+ 
+
+Starting with the line:
+
+ 
+
+int main()
+ 
+
+int: This is the return type of the function. You will get this thing clear once you reach the Functions topic.
+main(): This is the portion of any C++ code inside which all the commands are written and executed.
+This is the line at which the program will begin executing. This statement is similar to the start block of flowcharts.
+As you will move further in the course, you will get a clear glimpse of this function. Till then, just note that you will have to write all the programs inside this block.
+{}: all the code written inside the curly braces is said to be in one block, also known as a particular function scope. Again, these things will be clear when you will study functions.
+For now, just understand that this is the format in which we are going to write our basic C++ code. As you will move forward with the course, you will get a clear and better understanding.
+
+Complile and Run
+Compile and run a C++ code
+ 
+
+For compiling and running a CPP program in Linux following are the command lines:
+
+Compile: g++ Filename.cpp
+Run or execute: ./a.out
+ 
+
+ 
+
+For compiling and running a CPP program in Windows following are the command lines:
+
+Compile: gcc Filename.cpp
+Run or execute: filename
+ 
+ Macros in C++
+Macros
+ 
+
+Macros are a piece of code in a program that is given some name. Whenever the compiler encounters this name, the compiler replaces the name with the actual piece of code. The ‘#define’ directive is used to define a macro.
+
+ 
+
+Note: There is no semicolon(‘;’) at the end of the macro definition.
+
+ 
+
+Example:
+
+ 
+
+#include <iostream>
+using namespace std;
+
+// macro definition
+#define LIMIT 5
+
+int main() {
+    for (int i = 0; i < LIMIT; i++) {
+        cout << i << " ";
+    }
+    return 0;
+}
+
+
+Output:
+0 1 2 3 4
+ 
+
+Macros with arguments: We can also pass arguments to macros. Macros defined with arguments work similarly as functions.
+
+ 
+
+Example:
+
+ 
+
+#include <iostream>
+using namespace std;
+
+// macro with parameter
+#define Area(l, b)(l * b)
+
+int main() {
+    int l = 10, b = 5, a;
+    a = Area(l, b);
+    cout << "The Area of the rectangle is: " << a;
+    return 0;
+}
+
+
+Output:
+The area of the rectangle is: 50
+ 
+ Comments in C++
+Comments
+ 
+
+C++ comments are hints that a programmer can add to make their code easier to read and understand. They are completely ignored by C++ compilers.
+
+ 
+
+There are two ways to add comments to code:
+
+//        - Single Line Comment
+
+/* */    - Multi-line Comments
+
+ 
+
+Example: Single line comment.
+
+ 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // This is a comment
+    cout << "Hello World!";
+    return 0;
+}
+
+Output:
+Hello World!
+ 
+
+Example: Multi-line Comment.
+
+ 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    /* The code below will print - Hello World!
+    to the screen*/
+    cout << "Hello World!";
+    return 0;
+}
+
+
+Output:
+Hello World!
+ Introduction
+Introduction
+ 
+
+A variable is a storage place that has some memory allocated to it. It is used to store some form of data. Different types of variables require different amounts of memory.
+
+ 
+
+Variable Declaration 
+In C++, we can declare variables as follows:
+
+data_type: Type of the data that can be stored in this variable. It can be int, float, double, etc.
+variable_name: Name given to the variable.
+ 
+
+data_type variable_name;
+Example:  int x;
+ 
+
+In this way, we can only create a variable in the memory location. Currently, it doesn’t have any value. We can assign the value in this variable by using two ways:
+
+By using variable initialization.
+By taking input
+Here, we can discuss only the first way, i.e., variable initialization. We will discuss the second way later.
+
+ 
+
+data_type variable_name = value;
+Example:  int x = 20;
+ 
+
+Rules for defining variables in C++
+You can’t begin with a number. Ex- 9a can't be a variable, but a9 can be a variable.
+Spaces and special characters except for underscore(_) are not allowed.
+C++ keywords (reserved words) must not be used as a variable name.
+C++ is case-sensitive, meaning a variable with the name ‘A’ is different from a variable with the name ‘a’. (Difference in the upper-case and lower-case holds true).
+ 
+C++ Keywords
+In addition, the following words are also reserved:
+
+Examples:
+
+Correct
+int _a = 10;
+int b4 = 10;
+float c_5;
+ 
+
+Incorrect
+int 1a;
+float b@ = 2;
+String true;
+Introduction
+Introduction
+ 
+
+All variables use data-type during declaration to restrict the type of data to be stored. Therefore, we can say that data types tell the variables the type of data they can store.
+
+ 
+
+Pre-defined data types available in C++ are:
+
+● int: Integer value 
+
+● unsigned int: Can store only positive integers.
+
+● float, double: Decimal number 
+
+● char: Character values (including special characters) 
+
+● unsigned char: Character values
+
+● bool: Boolean values (true or false)
+
+ ● long: Contains integer values but with the larger size
+
+● unsigned long: Contains large positive integers or 0
+
+ ● short: Contains integer values but with smaller size
+
+ 
+
+Table for datatype and its size in C++: (This can vary from compiler to compiler and system to system depending on the version you are using)
+
+ 
+
+ 
+
+Examples:
+
+int price = 5000;                     // Integer (whole number)
+float interestRate = 5.99f;           // Floating point number
+char myLetter = 'D';                  // Character
+bool isPossible = true;               // Boolean
+String myText = "Coding Ninjas";      // String
+ 
+
+auto keyword in c++
+The auto keyword specifies that the type of the declared variable will automatically be deduced from its initializer.  It would set the variable type to initialize that variable’s value type or set the function return type as the value to be returned.
+
+ 
+
+Example:
+
+auto a = 11          // will set the variable a as int type
+auto b = 7.65        //will set the variable b as float
+auto c = "abcdefg"   // will set the variable c as string
+ 
+ Scope of a Variable
+Scope of a Variable
+ 
+
+Scope of a variable refers to the region of visibility or availability of a variable i.e the parts of your program in which the variable can be used or accessed.
+
+ 
+
+There are mainly two types of variable scopes:
+
+Local Scope
+Global Scope
+1. Local Scope
+ 
+
+Variables declared within the body of a function or block are said to have local scope and are referred to as ‘local variables’. They can be used only by the statements inside the body of the function or the block they are declared within.
+
+ 
+
+Example:
+
+ 
+
+void person() {
+    string gender = "Male";
+    //This variable gender is local to the function person()
+    //and cannot be used outside this function.
+}
+ 
+
+ 
+
+2. Global Scope
+ 
+
+The variables whose scope is not limited to any block or function are said to have global scope and are referred to as ‘global variables’. Global variables are declared outside of all the functions, generally on the top of the program, and can be accessed from any part of your program. These variables hold their values throughout the lifetime of the program.
+
+ 
+
+Example:
+
+ 
+
+#include <iostream>
+using namespace std;
+// Global variable declaration: and can be used anywhere in code
+int g;
+int main() {
+    g = 10; // Using global variable
+    cout << g;
+    return 0;
+}
+ Types of Variables
+Types of Variables
+ 
+
+There are three types of variables based on the scope of the variable in C++:
+
+Local Variables
+Instance Variables
+Static Variables
+ 
+
+1. Local Variables
+ 
+
+The variables declared within the body of a function or block are known as local variables and are created(occupy memory) when the program enters the block or makes a function call. The local variables get destroyed(memory is released) after exiting from the block or return from the function call. They can be used only by the statements inside the body of the function or the block they are declared within.
+
+ 
+
+Example:
+
+ 
+
+void function() {
+    //local variable marks
+    int marks = 90;
+    marks = marks + 2;
+    cout << "Student obtained "<<marks<<" marks."
+    return;
+}
+Output: Student obtained 92 marks.
+ 
+
+ 
+
+2. Instance Variables
+ 
+
+Instance variables are non-static variables and belong to an instance of a class and are declared in a class outside any method, constructor, or block. These variables are created when an object of the class is created and destroyed when the object is destroyed and are accessible to all the constructors, methods, or blocks in the class. Each object of the class within which the instance variable is declared will have its own separate copy or instance of this variable.
+
+Unlike local variables, we may use access specifiers for instance variables.
+
+ 
+
+Example:
+
+ 
+
+class A {
+    int a; // by default private instance variables
+    int b;
+    public:
+        int c; // public instance variable
+    Void
+    function () {
+        a = 10;
+        cout << a;
+    }
+};
+ 
+
+ 
+
+3. Static Variables
+ 
+
+Static variables are declared using the keyword ‘static’, within a class outside any method, constructor, or block. Space is allocated only once for static variables i.e we have a single copy of the static variable corresponding to a class, unlike instance variables. The static variables are created at the start of the program and get destroyed at the end of the program i.e the lifetime of a static variable is the lifetime of the program. Static variables are initialized only once and they hold their value throughout the lifetime of the program. 
+
+ 
+
+Example:
+
+ 
+
+class A {
+    static int
+    var; //static variable
+    Void func() {
+        ++var;
+    }
+};
+ 
+
