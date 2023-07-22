@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    int &b=a;
+    cout<<"enter b value ";
+    cin>>b;
+    b++;
+    a++;
+    cout<<b<<" a="<<a;
+    return 0;
+
+}
